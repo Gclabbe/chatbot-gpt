@@ -1,0 +1,12 @@
+name: chatbot-gpt
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - openai
+  - streamlit
+  - streamlit-chat
+  - python-dotenv
